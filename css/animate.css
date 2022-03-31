@@ -1,0 +1,736 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*--index_slogan--*/
+
+.index_slogan  , .index_product , .index_ca , .index_cookie , .index_koala , .page_slogan
+ {
+	filter:alpha(opacity=0);
+	-moz-opacity:;
+	-khtml-opacity:0; 
+	opacity:0;
+}
+
+
+.index_slogan.active  {
+	-webkit-animation: SHOW01  0.5s forwards;
+	-moz-animation: SHOW01  0.5s forwards;	
+	-o-animation: SHOW01  0.5s forwards;	
+	animation: SHOW01  0.5s forwards;	
+	}
+
+@-webkit-keyframes SHOW01 
+	{
+		0%  { opacity:0; -webkit-transform: perspective(1000px)  scale(0.5) translate3d(0px, 0px, 0px);}
+		70% { opacity:0.6; -webkit-transform: perspective(1000px)  scale(1.111) translate3d(0px, 0px, 0px);}					
+		100%{ opacity:1; -webkit-transform: perspective(1000px)  scale(1) translate3d(0px, 0px, 0px);}	
+	}	
+	
+@-moz-keyframes SHOW01 
+	{
+		0%  { opacity:0; -moz-transform: perspective(1000px)  scale(0.5) translate3d(0px, 0px, 0px);}
+		70% { opacity:0.6; -moz-transform: perspective(1000px)  scale(1.111) translate3d(0px, 0px, 0px);}					
+		100%{ opacity:1; -moz-transform: perspective(1000px)  scale(1) translate3d(0px, 0px, 0px);}	
+	}	
+	
+@-o-keyframes SHOW01 
+	{
+		0%  { opacity:0; -o-transform: perspective(1000px)  scale(0.5) translate3d(0px, 0px, 0px);}
+		70% { opacity:0.6; -o-transform: perspective(1000px)  scale(1.111) translate3d(0px, 0px, 0px);}					
+		100%{ opacity:1; -o-transform: perspective(1000px)  scale(1) translate3d(0px, 0px, 0px);}	
+	}
+	
+@keyframes SHOW01 
+	{
+		0%  { opacity:0; transform: perspective(1000px)  scale(0.5) translate3d(0px, 0px, 0px);}
+		70% { opacity:0.6; transform: perspective(1000px)  scale(1.111) translate3d(0px, 0px, 0px);}					
+		100%{ opacity:1; transform: perspective(1000px)  scale(1) translate3d(0px, 0px, 0px);}	
+	}
+
+.index_slogan.active { animation-delay:0.5s; } 
+
+/*--三個產品--*/
+
+
+.index_product.p01 {
+	margin-left:-1000px;
+	}
+
+.index_product.p02 {
+	margin-left:-350px;
+	}
+
+.index_product.p03 {
+	margin-left:-200px;
+	}
+	
+/*--p01--*/	
+.index_product.p01.active  {
+	-webkit-animation: PSHOW01  0.5s forwards;
+	-moz-animation: PSHOW01  0.5s forwards;	
+	-o-animation: PSHOW01  0.5s forwards;	
+	animation: PSHOW01  0.5s forwards;	
+	}
+
+@-webkit-keyframes PSHOW01
+	{
+		0%  { opacity:0; margin-left:-980px; }
+		50% { opacity:0.6; margin-left:-470px; }	
+		70% { opacity:0.6; margin-left:-500px; }					
+		100%{ opacity:1; margin-left:-480px; }	
+	}		
+
+
+@-moz-keyframes PSHOW01
+	{
+		0%  { opacity:0; margin-left:-980px; }
+		50% { opacity:0.6; margin-left:-470px; }	
+		70% { opacity:0.6; margin-left:-500px; }					
+		100%{ opacity:1; margin-left:-480px; }	
+	}
+	
+@-o-keyframes PSHOW01
+	{
+		0%  { opacity:0; margin-left:-980px; }
+		50% { opacity:0.6; margin-left:-470px; }	
+		70% { opacity:0.6; margin-left:-500px; }					
+		100%{ opacity:1; margin-left:-480px; }		
+	}
+	
+@keyframes PSHOW01
+	{
+		0%  { opacity:0; margin-left:-980px; }
+		50% { opacity:0.6; margin-left:-470px; }	
+		70% { opacity:0.6; margin-left:-500px; }					
+		100%{ opacity:1; margin-left:-480px; }	
+	}
+
+
+
+
+
+
+/*--p02--*/	
+.index_product.p02.active  {
+	-webkit-animation: PSHOW02  0.5s forwards;
+	-moz-animation: PSHOW02  0.5s forwards;	
+	-o-animation: PSHOW02  0.5s forwards;	
+	animation: PSHOW02  0.5s forwards;	
+	}
+
+@-webkit-keyframes PSHOW02 
+	{
+		0%  { opacity:0; margin-left:-980px; }
+		50% { opacity:0.6; margin-left:-320px; }	
+		70% { opacity:0.6; margin-left:-350px; }					
+		100%{ opacity:1; margin-left:-330px; }	
+	}	
+
+@-moz-keyframes PSHOW02 
+	{
+		0%  { opacity:0; margin-left:-980px; }
+		50% { opacity:0.6; margin-left:-320px; }	
+		70% { opacity:0.6; margin-left:-350px; }					
+		100%{ opacity:1; margin-left:-330px; }	
+	}
+	
+@-o-keyframes PSHOW02 
+	{
+		0%  { opacity:0; margin-left:-980px; }
+		50% { opacity:0.6; margin-left:-320px; }	
+		70% { opacity:0.6; margin-left:-350px; }					
+		100%{ opacity:1; margin-left:-330px; }	
+	}
+	
+@keyframes PSHOW02 
+	{
+		0%  { opacity:0; margin-left:-980px; }
+		50% { opacity:0.6; margin-left:-320px; }	
+		70% { opacity:0.6; margin-left:-350px; }					
+		100%{ opacity:1; margin-left:-330px; }		
+	}
+
+
+
+
+/*--p03--*/	
+.index_product.p03.active  {
+	-webkit-animation: PSHOW03  0.5s forwards;
+	-moz-animation: PSHOW03  0.5s forwards;	
+	-o-animation: PSHOW03  0.5s forwards;	
+	animation: PSHOW03  0.5s forwards;	
+	}
+
+@-webkit-keyframes PSHOW03 
+	{
+		0%  { opacity:0; margin-left:-980px; }
+		50% { opacity:0.6; margin-left:-170px; }	
+		70% { opacity:0.6; margin-left:-200px; }					
+		100%{ opacity:1; margin-left:-180px; }	
+	}	
+
+
+@-moz-keyframes PSHOW03 
+	{
+		0%  { opacity:0; margin-left:-980px; }
+		50% { opacity:0.6; margin-left:-170px; }	
+		70% { opacity:0.6; margin-left:-200px; }					
+		100%{ opacity:1; margin-left:-180px; }	
+	}
+	
+
+@-o-keyframes PSHOW03 
+	{
+		0%  { opacity:0; margin-left:-980px; }
+		50% { opacity:0.6; margin-left:-170px; }	
+		70% { opacity:0.6; margin-left:-200px; }					
+		100%{ opacity:1; margin-left:-180px; }	
+	}
+	
+
+@keyframes PSHOW03 
+	{
+		0%  { opacity:0; margin-left:-980px; }
+		50% { opacity:0.6; margin-left:-170px; }	
+		70% { opacity:0.6; margin-left:-200px; }					
+		100%{ opacity:1; margin-left:-180px; }		
+	}
+
+
+
+	
+.index_product.p01.active { animation-delay:1.7s; } 	
+.index_product.p02.active { animation-delay:1.5s; } 
+.index_product.p03.active { animation-delay:1.2s; } 
+	
+	
+	
+/*--鈣--*/
+
+	
+.index_ca.active , .index_cookie.active  {
+	-webkit-animation: CaSHOW01  0.5s forwards;
+	-moz-animation: CaSHOW01  0.5s forwards;	
+	-o-animation: CaSHOW01  0.5s forwards;	
+	animation: CaSHOW01  0.5s forwards;	
+	}
+
+@-webkit-keyframes CaSHOW01
+	{
+		0%  { opacity:0; -webkit-transform: perspective(1000px)  scale(0.5) translate3d(0px, 0px, 0px);}
+		50% { opacity:1; -webkit-transform: perspective(1000px)  scale(1.15) translate3d(0px, 0px, 0px);}					
+		65% { opacity:1; -webkit-transform: perspective(1000px)  scale(1) translate3d(0px, 0px, 0px);}	
+		85% { opacity:1; -webkit-transform: perspective(1000px)  scale(1.111) translate3d(0px, 0px, 0px);}					
+		100%{ opacity:1; -webkit-transform: perspective(1000px)  scale(1) translate3d(0px, 0px, 0px);}	
+	}			
+
+
+@-moz-keyframes CaSHOW01
+	{
+		0%  { opacity:0; -moz-transform: perspective(1000px)  scale(0.5) translate3d(0px, 0px, 0px);}
+		50% { opacity:1; -moz-transform: perspective(1000px)  scale(1.15) translate3d(0px, 0px, 0px);}					
+		65% { opacity:1; -moz-transform: perspective(1000px)  scale(1) translate3d(0px, 0px, 0px);}	
+		85% { opacity:1; -moz-transform: perspective(1000px)  scale(1.111) translate3d(0px, 0px, 0px);}					
+		100%{ opacity:1; -moz-transform: perspective(1000px)  scale(1) translate3d(0px, 0px, 0px);}	
+	}
+	
+
+@-o-keyframes CaSHOW01
+	{
+		0%  { opacity:0; -o-transform: perspective(1000px)  scale(0.5) translate3d(0px, 0px, 0px);}
+		50% { opacity:1; -o-transform: perspective(1000px)  scale(1.15) translate3d(0px, 0px, 0px);}					
+		65% { opacity:1; -o-transform: perspective(1000px)  scale(1) translate3d(0px, 0px, 0px);}	
+		85% { opacity:1; -o-transform: perspective(1000px)  scale(1.111) translate3d(0px, 0px, 0px);}					
+		100%{ opacity:1; -o-transform: perspective(1000px)  scale(1) translate3d(0px, 0px, 0px);}	
+	}
+	
+
+@keyframes CaSHOW01
+	{
+		0%  { opacity:0; transform: perspective(1000px)  scale(0.5) translate3d(0px, 0px, 0px);}
+		50% { opacity:1; transform: perspective(1000px)  scale(1.15) translate3d(0px, 0px, 0px);}					
+		65% { opacity:1; transform: perspective(1000px)  scale(1) translate3d(0px, 0px, 0px);}	
+		85% { opacity:1; transform: perspective(1000px)  scale(1.111) translate3d(0px, 0px, 0px);}					
+		100%{ opacity:1; transform: perspective(1000px)  scale(1) translate3d(0px, 0px, 0px);}	
+	}
+
+
+	
+.index_ca.active { animation-delay:2.5s; } 	
+.index_cookie.active { animation-delay:2.6s; } 		
+	
+
+/*--熊--*/
+
+
+.index_koala {
+	
+	}
+	
+.index_koala.active  {
+	-webkit-animation: koalaSHOW01  0.5s forwards;
+	-moz-animation: koalaSHOW01  0.5s forwards;	
+	-o-animation: koalaSHOW01  0.5s forwards;	
+	animation: koalaSHOW01  0.5s forwards;	
+	}
+
+@-webkit-keyframes koalaSHOW01
+	{
+		0%  { opacity:0; -webkit-transform: perspective(1000px)  scale(0.2) translate3d(0px, 0px, 0px); }
+		60%{ opacity:1;  -webkit-transform: perspective(1000px)  scale(1.1) translate3d(0px, 0px, 0px); }						
+		100%{ opacity:1; -webkit-transform: perspective(1000px)  scale(1) translate3d(0px, 0px, 0px);   }	
+	}			
+	
+
+@-moz-keyframes koalaSHOW01
+	{
+		0%  { opacity:0; -moz-transform: perspective(1000px)  scale(0.2) translate3d(0px, 0px, 0px); }
+		60%{ opacity:1;  -moz-transform: perspective(1000px)  scale(1.1) translate3d(0px, 0px, 0px); }						
+		100%{ opacity:1; -moz-transform: perspective(1000px)  scale(1) translate3d(0px, 0px, 0px);   }	
+	}	
+	
+
+@-o-keyframes koalaSHOW01
+	{
+		0%  { opacity:0; -o-transform: perspective(1000px)  scale(0.2) translate3d(0px, 0px, 0px); }
+		60%{ opacity:1;  -o-transform: perspective(1000px)  scale(1.1) translate3d(0px, 0px, 0px); }						
+		100%{ opacity:1; -o-transform: perspective(1000px)  scale(1) translate3d(0px, 0px, 0px);   }	
+	}	
+	
+
+@keyframes koalaSHOW01
+	{
+		0%  { opacity:0; transform: perspective(1000px)  scale(0.2) translate3d(0px, 0px, 0px); }
+		60%{ opacity:1;  transform: perspective(1000px)  scale(1.1) translate3d(0px, 0px, 0px); }						
+		100%{ opacity:1; transform: perspective(1000px)  scale(1) translate3d(0px, 0px, 0px);   }	
+	}		
+	
+	
+	
+	
+.index_koala.active { animation-delay:2s; } 		
+
+/*--卷動提示--*/
+
+
+.scrollNote.active  {
+	-webkit-animation: SCR01  3s forwards;
+	-moz-animation: SCR01  3s forwards;
+	-o-animation: SCR01  3s forwards;
+	animation: SCR01  3s forwards;}
+
+
+@-webkit-keyframes SCR01
+	{
+		0%  { opacity:0; top:100px;} 
+		10%  { opacity:1; top:120px;} 
+		20%  { opacity:0.7; top:100px;} 
+		40%  { opacity:1; top:120px;} 
+		60%  { opacity:0.7; top:100px;} 
+		80%  { opacity:1; top:120px; z-index:99;} 
+		100%  { opacity:0; top:100px; z-index:-1;} 
+		
+	}
+
+
+@-moz-keyframes SCR01
+	{
+		0%  { opacity:0; top:100px;} 
+		10%  { opacity:1; top:120px;} 
+		20%  { opacity:0.7; top:100px;} 
+		40%  { opacity:1; top:120px;} 
+		60%  { opacity:0.7; top:100px;} 
+		80%  { opacity:1; top:120px; z-index:99;} 
+		100%  { opacity:0; top:100px; z-index:-1;} 
+	}
+
+@-o-keyframes SCR01
+	{
+		0%  { opacity:0; top:100px;} 
+		10%  { opacity:1; top:120px;} 
+		20%  { opacity:0.7; top:100px;} 
+		40%  { opacity:1; top:120px;} 
+		60%  { opacity:0.7; top:100px;} 
+		80%  { opacity:1; top:120px; z-index:99;} 
+		100%  { opacity:0; top:100px; z-index:-1;} 
+	}
+	
+
+@keyframes SCR01
+	{
+		0%  { opacity:0; top:100px;} 
+		10%  { opacity:1; top:120px;} 
+		20%  { opacity:0.7; top:100px;} 
+		40%  { opacity:1; top:120px;} 
+		60%  { opacity:0.7; top:100px;} 
+		80%  { opacity:1; top:120px; z-index:99;} 
+		100%  { opacity:0; top:100px; z-index:-1;} 
+	}
+
+
+.scrollNote.active { animation-delay:3.3s; } 
+
+/*#scrollNote_wrapper.active {
+	opacity:0;}
+
+#scrollNote_wrapper.active { animation-delay:7s; } */
+
+/*--音樂提示--*/
+
+.bookDeco_02.active  {
+	-webkit-animation: SCR02  3s forwards;
+	-moz-animation: SCR02  3s forwards;
+	-o-animation: SCR02  3s forwards;
+	animation: SCR02  3s forwards;}
+
+
+@-webkit-keyframes SCR02
+	{
+		0%  { opacity:0; top:20px;} 
+		10%  { opacity:1; top:40px;} 
+		20%  { opacity:0.7; top:20px;} 
+		40%  { opacity:1; top:40px;} 
+		60%  { opacity:0.7; top:20px;} 
+		80%  { opacity:1; top:40px; z-index:99;} 
+		100%  { opacity:0; top:20px; z-index:-1;} 
+		
+	}
+
+
+@-moz-keyframes SCR02
+	{
+		0%  { opacity:0; top:20px;} 
+		10%  { opacity:1; top:40px;} 
+		20%  { opacity:0.7; top:20px;} 
+		40%  { opacity:1; top:40px;} 
+		60%  { opacity:0.7; top:20px;} 
+		80%  { opacity:1; top:40px; z-index:99;} 
+		100%  { opacity:0; top:20px; z-index:-1;} 
+	}
+
+@-o-keyframes SCR02
+	{
+		0%  { opacity:0; top:20px;} 
+		10%  { opacity:1; top:40px;} 
+		20%  { opacity:0.7; top:20px;} 
+		40%  { opacity:1; top:40px;} 
+		60%  { opacity:0.7; top:20px;} 
+		80%  { opacity:1; top:40px; z-index:99;} 
+		100%  { opacity:0; top:20px; z-index:-1;} 
+	}
+	
+
+@keyframes SCR02
+	{
+		0%  { opacity:0; top:20px;} 
+		10%  { opacity:1; top:40px;} 
+		20%  { opacity:0.7; top:20px;} 
+		40%  { opacity:1; top:40px;} 
+		60%  { opacity:0.7; top:20px;} 
+		80%  { opacity:1; top:40px; z-index:99;} 
+		100%  { opacity:0; top:20px; z-index:-1;} 
+	}
+
+	
+/*----*/
+
+.page_slogan {
+	top:120px;
+	left:50%;
+	margin-left:-170px;	
+	}
+
+
+.page_slogan.active  {
+	-webkit-animation: psSHOW01  0.5s forwards;
+	-moz-animation: psSHOW01  0.5s forwards;	
+	-o-animation: psSHOW01  0.5s forwards;	
+	animation: psSHOW01  0.5s forwards;	
+	}
+
+@-webkit-keyframes psSHOW01
+	{
+		0%  { opacity:0; -webkit-transform: perspective(1000px)  scale(0.2) translate3d(0px, 0px, 0px); }
+		70%{ opacity:1;  -webkit-transform: perspective(1000px)  scale(1.12) translate3d(0px, 0px, 0px); }						
+		100%{ opacity:1; -webkit-transform: perspective(1000px)  scale(1) translate3d(0px, 0px, 0px);   }	
+	}			
+
+
+@-moz-keyframes psSHOW01
+	{
+		0%  { opacity:0; -moz-transform: perspective(1000px)  scale(0.2) translate3d(0px, 0px, 0px); }
+		70%{ opacity:1;  -moz-transform: perspective(1000px)  scale(1.12) translate3d(0px, 0px, 0px); }						
+		100%{ opacity:1; -moz-transform: perspective(1000px)  scale(1) translate3d(0px, 0px, 0px);   }	
+	}	
+
+@-o-keyframes psSHOW01
+	{
+		0%  { opacity:0; -o-transform: perspective(1000px)  scale(0.2) translate3d(0px, 0px, 0px); }
+		70%{ opacity:1;  -o-transform: perspective(1000px)  scale(1.12) translate3d(0px, 0px, 0px); }						
+		100%{ opacity:1; -o-transform: perspective(1000px)  scale(1) translate3d(0px, 0px, 0px);   }	
+	}	
+
+@keyframes psSHOW01
+	{
+		0%  { opacity:0; transform: perspective(1000px)  scale(0.2) translate3d(0px, 0px, 0px); }
+		70%{ opacity:1;  transform: perspective(1000px)  scale(1.12) translate3d(0px, 0px, 0px); }						
+		100%{ opacity:1; transform: perspective(1000px)  scale(1) translate3d(0px, 0px, 0px);   }	
+	}	
+
+	
+.page_slogan.active { animation-delay:0.5s; } 	
+
+
+
+
+/*--繪本--*/
+
+/*---鳥搖晃--*/
+.book02_5 /*, .book04_3 , .book06_4 ,  .book07_3*/  , .book08_1-1 , .book17_2img {
+	-webkit-animation: RORO 1s infinite;
+	-webkit-animation-fill-mode: none;
+	-moz-animation: RORO 1s infinite;
+	-moz-animation-fill-mode: none;
+	-o-animation: RORO 1s infinite;
+	-o-animation-fill-mode: none;
+	animation: RORO 1s infinite;
+	animation-fill-mode: none;
+	
+	-webkit-transform-style: preserve-3d;
+	-webkit-transform-origin: 70% 90% 0;	
+	-moz-transform-style: preserve-3d;
+	-moz-transform-origin: 70% 90% 0;	
+	-o-transform-style: preserve-3d;
+	-o-transform-origin: 70% 90% 0;	
+	transform-style: preserve-3d;
+	transform-origin: 70% 90% 0;	
+	}
+
+
+
+
+@-webkit-keyframes RORO
+	{
+		0% {-webkit-transform: rotate(-5deg);}
+		50% {-webkit-transform: rotate(10deg);}
+		100% {-webkit-transform: rotate(-5deg);}
+	}
+	
+@-moz-keyframes RORO
+	{
+		0% {-moz-transform: rotate(-5deg);}
+		50% {-moz-transform: rotate(10deg);}
+		100% {-moz-transform: rotate(-5deg);}
+	}	
+	
+	
+@-o-keyframes RORO
+	{
+		0% {-o-transform: rotate(-5deg);}
+		50% {-o-transform: rotate(10deg);}
+		100% {-o-transform: rotate(-5deg);}
+	}		
+	
+@keyframes RORO
+	{
+		0% {transform: rotate(-5deg);}
+		50% {transform: rotate(10deg);}
+		100% {transform: rotate(-5deg);}
+	}		
+	
+
+/*熊頭*/
+.book08_1-1 {
+	position:absolute;
+	top:188px;
+	left:200px!important;
+	z-index:21;
+	
+	-webkit-transform-style: preserve-3d;
+	-webkit-transform-origin: 50% 90% 0;	
+	-moz-transform-style: preserve-3d;
+	-moz-transform-origin: 50% 90% 0;	
+	-o-transform-style: preserve-3d;
+	-o-transform-origin: 50% 90% 0;	
+	transform-style: preserve-3d;
+	transform-origin: 50% 90% 0;	
+	
+	}
+
+/*游泳圈*/
+.book17_2img {
+	position:absolute;
+
+	-webkit-transform-style: preserve-3d;
+	-webkit-transform-origin: 50% 90% 0;	
+	-moz-transform-style: preserve-3d;
+	-moz-transform-origin: 50% 90% 0;	
+	-o-transform-style: preserve-3d;
+	-o-transform-origin: 50% 90% 0;	
+	transform-style: preserve-3d;
+	transform-origin: 50% 90% 0;	
+	
+	}
+
+
+/*---熊滑下來流汗--*/
+
+.book04_42 , .book04_43 {
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:30;
+	-webkit-animation: PA01  1.5s infinite;
+	-moz-animation: PA01  1.5s infinite;
+	-o-animation: PA01  1.5s infinite;
+	animation: PA01 1.5s infinite;	
+	}
+
+/*---煙囪--*/
+
+.book29_2 , .book29_3 {
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:30;
+	-webkit-animation: PA01  1.5s infinite;
+	-moz-animation: PA01  1.5s infinite;
+	-o-animation: PA01  1.5s infinite;
+	animation: PA01 1.5s infinite;	}
+
+.book29_3 { z-index:40;}
+ 
+.book29_2  { animation-delay:0.5s; }
+.book29_3  { animation-delay:1s; }
+
+@-webkit-keyframes PA01
+	{
+		0%  { opacity:0;} 4%  { opacity:0;} 5%  { opacity:1;} 10% { opacity:1;}	11% { opacity:0;}	100%{ opacity:0; }	
+	}
+	
+@-moz-keyframes PA01
+	{
+		0%  { opacity:0;} 4%  { opacity:0;} 5%  { opacity:1;} 10% { opacity:1;}	11% { opacity:0;}	100%{ opacity:0; }	
+	}
+	
+@-o-keyframes PA01
+	{
+		0%  { opacity:0;} 4%  { opacity:0;} 5%  { opacity:1;} 10% { opacity:1;}	11% { opacity:0;}	100%{ opacity:0; }	
+	}
+	
+@keyframes PA01
+	{
+		0%  { opacity:0;} 4%  { opacity:0;} 5%  { opacity:1;} 10% { opacity:1;}	11% { opacity:0;}	100%{ opacity:0; }	
+	}
+
+.book04_42  { animation-delay:0.5s; }
+.book04_43  { animation-delay:1s; }
+
+
+
+
+
+
+/*---啪--*/	
+
+.book10_2 , .book10_3 , .book10_4 , .book10_5 , .book10_6 {
+	-webkit-animation: PA01  1s infinite;
+	-moz-animation: PA01  1s infinite;
+	-o-animation: PA01  1s infinite;
+	animation: PA01  1s infinite;
+	}
+
+@-webkit-keyframes PA01
+	{
+		0%  { opacity:0;} 50% { opacity:1;}	100%{ opacity:0; }	
+	}
+
+
+@-moz-keyframes PA01
+	{
+		0%  { opacity:0;} 50% { opacity:1;}	100%{ opacity:0; }	
+	}
+	
+
+@-o-keyframes PA01
+	{
+		0%  { opacity:0;} 50% { opacity:1;}	100%{ opacity:0; }	
+	}
+	
+
+@keyframes PA01
+	{
+		0%  { opacity:0;} 50% { opacity:1;}	100%{ opacity:0; }	
+	}
+
+
+
+
+.book10_3 { animation-delay:0.2s; }
+.book10_4 { animation-delay:0.4s; }
+.book10_5 { animation-delay:0.6s; }
+.book10_6 { animation-delay:0.4s; }
+
+	
+/*---小熊 坐起來--*/	
+.book11_2 {
+	-webkit-transform-style: preserve-3d;
+	-webkit-transform-origin: 50% 90% 0;	
+	-moz-transform-style: preserve-3d;
+	-moz-transform-origin: 50% 90% 0;	
+	-o-transform-style: preserve-3d;
+	-o-transform-origin: 50% 90% 0;	
+	transform-style: preserve-3d;
+	transform-origin: 50% 90% 0;	
+	}
+
+/*---華爾茲調配--*/	
+
+.book12_5 {
+	opacity:0; 
+	top:0px; left:0px; z-index:30;
+	}
+
+.book12_6 {
+	opacity:0; 
+	top:0px; left:0px; z-index:30;
+	}
+	
+.book30_2  , .book31_2 , .book33_2 , .book35_2  , .book12_5 ,  .book12_6 {
+	-webkit-animation: COOK01  2s infinite;
+	-moz-animation: COOK01  2s infinite;
+	-o-animation: COOK01  2s infinite;
+	animation: COOK01  2s infinite;
+	}
+
+@-webkit-keyframes COOK01
+	{
+		0%  { opacity:0;} 50% { opacity:1;}	100%{ opacity:0; }	
+	}		
+	
+
+@-moz-keyframes COOK01
+	{
+		0%  { opacity:0;} 50% { opacity:1;}	100%{ opacity:0; }	
+	}
+	
+@-o-keyframes COOK01
+	{
+		0%  { opacity:0;} 50% { opacity:1;}	100%{ opacity:0; }	
+	}
+
+@keyframes COOK01
+	{
+		0%  { opacity:0;} 50% { opacity:1;}	100%{ opacity:0; }	
+	}
+
+
+.book12_6 { animation-delay:1s; }
+
+
+
+
+
+	
+
+/*--繪本END--*/
